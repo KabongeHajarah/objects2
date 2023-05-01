@@ -29,7 +29,12 @@ function getBooksByAuthor(authorName) {
      
 return booksByAuthor
 }
-  console.log(getBooksByAuthor());
+let authorName='J.D. Salinger'
+console.log(getBooksByAuthor(authorName));
+  console.log(getBooksByAuthor('F. Scott Fitzgerald'));
+  console.log(getBooksByAuthor('Charles Dickens'));
+
+
 
 // 3. Create a function addNewBook that takes a book object as an argument and adds it
 // to the library, ensuring that the new book has all required properties (title, author,
